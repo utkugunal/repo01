@@ -1,0 +1,24 @@
+.title {
+  color: red;
+}
+
+.albums__album-display__album {
+  border: 2px solid red;
+  display: inline-table;
+  width: 200px;
+}
+
+/* 
+-- NOTES --
+we use class using BEM (block element modifier) see below
+
+we can have more than 1 css file, 1 main css file and 1 css file per html page. 
+In this case we can either import the main css file into the css files per page 
+OR link 1 main and 1 page css file to your respective html 
+
+using css variable for color is a good practice
+
+*/
+.albums__album-display__album img {
+  border: 2px solid red;
+}
